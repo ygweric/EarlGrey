@@ -97,6 +97,7 @@
 		59467E981C9373F00089498B /* FTRVisibilityTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59467DD21C9373A50089498B /* FTRVisibilityTestViewController.m */; };
 		59467E9B1C9373F00089498B /* FTRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59467DD51C9373A50089498B /* FTRWebViewController.m */; };
 		59467E9D1C9373F00089498B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59467DD71C9373A50089498B /* main.m */; };
+		5956B2481D78F67B00A1345F /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5956B2471D78F67B00A1345F /* OCHamcrest.framework */; };
 		596D89BF1C05AB1600025714 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596D89BE1C05AB0600025714 /* EarlGrey.framework */; };
 		61E4E0B31D7559A9007F9EE6 /* FTRImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E0B11D7559A9007F9EE6 /* FTRImageViewController.m */; };
 		61E4E0B41D7559A9007F9EE6 /* FTRImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61E4E0B21D7559A9007F9EE6 /* FTRImageViewController.xib */; };
@@ -114,14 +115,12 @@
 		FD387B531CA9C6BE00958AEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD193FF51BBDDBF500153959 /* CoreGraphics.framework */; };
 		FD387B541CA9C6C500958AEE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD193FF11BBDDBE800153959 /* CoreFoundation.framework */; };
 		FD387B551CA9C6C500958AEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD193FF31BBDDBED00153959 /* Foundation.framework */; };
-		FD387B571CA9C6DA00958AEE /* EarlGrey.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 596D89BE1C05AB0600025714 /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		FD5471351BBDF990000661FD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD193FF11BBDDBE800153959 /* CoreFoundation.framework */; };
 		FD5471361BBDF995000661FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD193FF31BBDDBED00153959 /* Foundation.framework */; };
 		FD5471371BBDF99B000661FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD193FF51BBDDBF500153959 /* CoreGraphics.framework */; };
 		FD5471381BBDF9A1000661FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD193FF71BBDDBFB00153959 /* UIKit.framework */; };
 		FD5471391BBDF9AC000661FD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD193FF91BBDDC0000153959 /* QuartzCore.framework */; };
 		FD54713A1BBDF9C0000661FD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5470D61BBDE0A9000661FD /* IOKit.framework */; };
-		FD60CB611C5B5B1B00F8E318 /* EarlGrey.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 596D89BE1C05AB0600025714 /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		FD983D6C1D67E8B40059F4CC /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8277DE1D677D9F00C7C2AD /* EarlGrey.swift */; };
 /* End PBXBuildFile section */
 
@@ -162,29 +161,6 @@
 			remoteInfo = FunctionalTests;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		FD387B561CA9C6CA00958AEE /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(TEST_HOST)/..";
-			dstSubfolderSpec = 0;
-			files = (
-				FD387B571CA9C6DA00958AEE /* EarlGrey.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD60CB601C5B5AFB00F8E318 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "$(TEST_HOST)/..";
-			dstSubfolderSpec = 0;
-			files = (
-				FD60CB611C5B5B1B00F8E318 /* EarlGrey.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		59467D5B1C9373A50089498B /* FTRAccessibilityTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRAccessibilityTest.m; sourceTree = "<group>"; };
@@ -308,6 +284,7 @@
 		59467DD51C9373A50089498B /* FTRWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRWebViewController.m; sourceTree = "<group>"; };
 		59467DD61C9373A50089498B /* FTRWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTRWebViewController.xib; sourceTree = "<group>"; };
 		59467DD71C9373A50089498B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5956B2471D78F67B00A1345F /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrest.framework; path = ../../OCHamcrest.framework; sourceTree = "<group>"; };
 		596D89B91C05AB0600025714 /* EarlGrey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EarlGrey.xcodeproj; path = ../../EarlGrey.xcodeproj; sourceTree = "<group>"; };
 		61E4E0B01D7559A9007F9EE6 /* FTRImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRImageViewController.h; sourceTree = "<group>"; };
 		61E4E0B11D7559A9007F9EE6 /* FTRImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRImageViewController.m; sourceTree = "<group>"; };
@@ -358,6 +335,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5956B2481D78F67B00A1345F /* OCHamcrest.framework in Frameworks */,
 				596D89BF1C05AB1600025714 /* EarlGrey.framework in Frameworks */,
 				FD54713A1BBDF9C0000661FD /* IOKit.framework in Frameworks */,
 				FD5471391BBDF9AC000661FD /* QuartzCore.framework in Frameworks */,
@@ -374,6 +352,7 @@
 		4C0731EECC191DBA6FF23E1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5956B2471D78F67B00A1345F /* OCHamcrest.framework */,
 				FD5470D61BBDE0A9000661FD /* IOKit.framework */,
 			);
 			name = Frameworks;
@@ -613,8 +592,6 @@
 			buildPhases = (
 				FD387B3D1CA9C63900958AEE /* Sources */,
 				FD387B3E1CA9C63900958AEE /* Frameworks */,
-				FD387B3F1CA9C63900958AEE /* Resources */,
-				FD387B561CA9C6CA00958AEE /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -633,8 +610,6 @@
 			buildPhases = (
 				FD5470ED1BBDECBB000661FD /* Sources */,
 				FD5470EE1BBDECBB000661FD /* Frameworks */,
-				FD5470EF1BBDECBB000661FD /* Resources */,
-				FD60CB601C5B5AFB00F8E318 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -743,20 +718,6 @@
 				59467E0B1C9373A50089498B /* FTRActivityIndicatorViewController.xib in Resources */,
 				59467E0D1C9373A50089498B /* FTRAlertViewController.xib in Resources */,
 				59467E021C9373A50089498B /* ic_local_cafe_48pt@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD387B3F1CA9C63900958AEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD5470EF1BBDECBB000661FD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1091,7 +1052,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sskhandp/gsrc/earlgrey_oss/EarlGrey,
+				);
 				GCC_PREFIX_HEADER = FunctionalTests.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1108,6 +1072,8 @@
 					"-ObjC",
 					"-framework",
 					IOKit,
+					"-framework",
+					OCHamcrest,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunctionalTestRig.app/FunctionalTestRig";
@@ -1121,7 +1087,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sskhandp/gsrc/earlgrey_oss/EarlGrey,
+				);
 				GCC_PREFIX_HEADER = FunctionalTests.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = "$(inherited)";
@@ -1135,6 +1104,8 @@
 					"-ObjC",
 					"-framework",
 					IOKit,
+					"-framework",
+					OCHamcrest,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunctionalTestRig.app/FunctionalTestRig";
