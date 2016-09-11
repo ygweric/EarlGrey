@@ -19,6 +19,7 @@
 #include <dlfcn.h>
 #include <fishhook.h>
 #include <libkern/OSAtomic.h>
+#include <stdatomic.h>
 
 #import "Common/GREYConfiguration.h"
 

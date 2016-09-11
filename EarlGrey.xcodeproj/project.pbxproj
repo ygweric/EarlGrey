@@ -7,6 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5941A81F1D82A81A0018AA2A /* GREYBaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0B971C6D49400001EA75 /* GREYBaseAction.m */; };
+		5941A8201D82A81A0018AA2A /* GREYActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001031C5B46C100B2DB0A /* GREYActionBlock.m */; };
+		5941A8211D82A81A0018AA2A /* GREYActions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001051C5B46C100B2DB0A /* GREYActions.m */; };
+		5941A8221D82A81A0018AA2A /* GREYPinchAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E0BE1D755A0D007F9EE6 /* GREYPinchAction.m */; };
+		5941A8231D82A81A0018AA2A /* GREYChangeStepperAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001071C5B46C100B2DB0A /* GREYChangeStepperAction.m */; };
+		5941A8241D82A81A0018AA2A /* GREYPathGestureUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001091C5B46C100B2DB0A /* GREYPathGestureUtils.m */; };
+		5941A8251D82A81A0018AA2A /* GREYPickerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10010B1C5B46C100B2DB0A /* GREYPickerAction.m */; };
+		5941A8261D82A81A0018AA2A /* GREYScrollAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10010D1C5B46C100B2DB0A /* GREYScrollAction.m */; };
+		5941A8271D82A81A0018AA2A /* GREYScrollActionError.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10010F1C5B46C100B2DB0A /* GREYScrollActionError.m */; };
+		5941A8281D82A81A0018AA2A /* GREYScrollToContentEdgeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001111C5B46C100B2DB0A /* GREYScrollToContentEdgeAction.m */; };
+		5941A8291D82A81A0018AA2A /* GREYSlideAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001151C5B46C100B2DB0A /* GREYSlideAction.m */; };
+		5941A82A1D82A81A0018AA2A /* GREYSwipeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001171C5B46C100B2DB0A /* GREYSwipeAction.m */; };
+		5941A82B1D82A81A0018AA2A /* GREYTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001191C5B46C100B2DB0A /* GREYTapAction.m */; };
+		5941A82C1D82A81A0018AA2A /* GREYTapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10011B1C5B46C100B2DB0A /* GREYTapper.m */; };
+		5941A82D1D82A81A0018AA2A /* __NSCFLocalDataTask_GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10011E1C5B46C100B2DB0A /* __NSCFLocalDataTask_GREYAdditions.m */; };
+		5941A82E1D82A81A0018AA2A /* _UIModalItemsPresentingViewController_GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001221C5B46C100B2DB0A /* _UIModalItemsPresentingViewController_GREYAdditions.m */; };
+		5941A82F1D82A81A0018AA2A /* CAAnimation+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001241C5B46C100B2DB0A /* CAAnimation+GREYAdditions.m */; };
+		5941A8301D82A81A0018AA2A /* CALayer+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001261C5B46C100B2DB0A /* CALayer+GREYAdditions.m */; };
+		5941A8311D82A81A0018AA2A /* CGGeometry+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001281C5B46C100B2DB0A /* CGGeometry+GREYAdditions.m */; };
+		5941A8321D82A81A0018AA2A /* NSError+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10012A1C5B46C100B2DB0A /* NSError+GREYAdditions.m */; };
+		5941A8331D82A81A0018AA2A /* NSObject+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10012C1C5B46C100B2DB0A /* NSObject+GREYAdditions.m */; };
+		5941A8341D82A81A0018AA2A /* NSRunLoop+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10012E1C5B46C100B2DB0A /* NSRunLoop+GREYAdditions.m */; };
+		5941A8351D82A81A0018AA2A /* NSString+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001301C5B46C100B2DB0A /* NSString+GREYAdditions.m */; };
+		5941A8361D82A81A0018AA2A /* NSTimer+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001321C5B46C100B2DB0A /* NSTimer+GREYAdditions.m */; };
+		5941A8371D82A81A0018AA2A /* NSURL+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001341C5B46C100B2DB0A /* NSURL+GREYAdditions.m */; };
+		5941A8381D82A81A0018AA2A /* NSURLConnection+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001361C5B46C100B2DB0A /* NSURLConnection+GREYAdditions.m */; };
+		5941A8391D82A81A0018AA2A /* UIAnimation+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001381C5B46C100B2DB0A /* UIAnimation+GREYAdditions.m */; };
+		5941A83A1D82A81A0018AA2A /* UIApplication+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10013A1C5B46C100B2DB0A /* UIApplication+GREYAdditions.m */; };
+		5941A83B1D82A81A0018AA2A /* UIScrollView+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10013C1C5B46C100B2DB0A /* UIScrollView+GREYAdditions.m */; };
+		5941A83C1D82A81A0018AA2A /* UISwitch+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10013E1C5B46C100B2DB0A /* UISwitch+GREYAdditions.m */; };
+		5941A83D1D82A81A0018AA2A /* UITouch+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001401C5B46C100B2DB0A /* UITouch+GREYAdditions.m */; };
+		5941A83E1D82A81A0018AA2A /* UIView+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001421C5B46C100B2DB0A /* UIView+GREYAdditions.m */; };
+		5941A83F1D82A81A0018AA2A /* UIViewController+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001441C5B46C100B2DB0A /* UIViewController+GREYAdditions.m */; };
+		5941A8401D82A81A0018AA2A /* UIWebView+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001461C5B46C100B2DB0A /* UIWebView+GREYAdditions.m */; };
+		5941A8411D82A81A0018AA2A /* UIWindow+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001481C5B46C100B2DB0A /* UIWindow+GREYAdditions.m */; };
+		5941A8421D82A81A0018AA2A /* XCTestCase+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10014A1C5B46C100B2DB0A /* XCTestCase+GREYAdditions.m */; };
+		5941A8431D82A81A0018AA2A /* UIGestureRecognizer+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 61156A501D1B2AC1000013C7 /* UIGestureRecognizer+GREYAdditions.m */; };
+		5941A8441D82A81A0018AA2A /* GREYWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94FDB51D0F68180021F107 /* GREYWeakObjectContainer.m */; };
+		5941A8451D82A81A0018AA2A /* GREYAssertionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001501C5B46C200B2DB0A /* GREYAssertionBlock.m */; };
+		5941A8461D82A81A0018AA2A /* GREYAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001531C5B46C200B2DB0A /* GREYAssertions.m */; };
+		5941A8471D82A81A0018AA2A /* GREYTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD242E711D14B73E00046221 /* GREYTestHelper.m */; };
+		5941A8481D82A81A0018AA2A /* GREYAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001571C5B46C200B2DB0A /* GREYAnalytics.m */; };
+		5941A8491D82A81A0018AA2A /* GREYConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001591C5B46C200B2DB0A /* GREYConfiguration.m */; };
+		5941A84A1D82A81A0018AA2A /* GREYConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10015B1C5B46C200B2DB0A /* GREYConstants.m */; };
+		5941A84B1D82A81A0018AA2A /* GREYElementHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10015E1C5B46C200B2DB0A /* GREYElementHierarchy.m */; };
+		5941A84C1D82A81A0018AA2A /* GREYScreenshotUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001621C5B46C200B2DB0A /* GREYScreenshotUtil.m */; };
+		5941A84D1D82A81A0018AA2A /* GREYSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001641C5B46C200B2DB0A /* GREYSwizzler.m */; };
+		5941A84E1D82A81A0018AA2A /* GREYVisibilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001661C5B46C200B2DB0A /* GREYVisibilityChecker.m */; };
+		5941A84F1D82A81A0018AA2A /* GREYAutomationSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FC0A061CD939C30081BDAA /* GREYAutomationSetup.m */; };
+		5941A8501D82A81A0018AA2A /* GREYElementFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001691C5B46C200B2DB0A /* GREYElementFinder.m */; };
+		5941A8511D82A81A0018AA2A /* GREYElementInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10016B1C5B46C200B2DB0A /* GREYElementInteraction.m */; };
+		5941A8521D82A81A0018AA2A /* GREYKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10016F1C5B46C200B2DB0A /* GREYKeyboard.m */; };
+		5941A8531D82A81A0018AA2A /* GREYCAAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001721C5B46C200B2DB0A /* GREYCAAnimationDelegate.m */; };
+		5941A8541D82A81A0018AA2A /* GREYNSURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001741C5B46C200B2DB0A /* GREYNSURLConnectionDelegate.m */; };
+		5941A8551D82A81A0018AA2A /* GREYSurrogateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001761C5B46C200B2DB0A /* GREYSurrogateDelegate.m */; };
+		5941A8561D82A81A0018AA2A /* GREYUIWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001781C5B46C200B2DB0A /* GREYUIWebViewDelegate.m */; };
+		5941A8571D82A81A0018AA2A /* EarlGrey.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10017A1C5B46C200B2DB0A /* EarlGrey.m */; };
+		5941A8581D82A81A0018AA2A /* GREYSyntheticEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10017F1C5B46C200B2DB0A /* GREYSyntheticEvents.m */; };
+		5941A8591D82A81A0018AA2A /* GREYTouchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E0B61D7559DA007F9EE6 /* GREYTouchInfo.m */; };
+		5941A85A1D82A81A0018AA2A /* GREYTouchInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E0B81D7559DA007F9EE6 /* GREYTouchInjector.m */; };
+		5941A85B1D82A81A0018AA2A /* GREYDefaultFailureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001821C5B46C200B2DB0A /* GREYDefaultFailureHandler.m */; };
+		5941A85C1D82A81A0018AA2A /* GREYFrameworkException.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001851C5B46C200B2DB0A /* GREYFrameworkException.m */; };
+		5941A85D1D82A81A0018AA2A /* GREYHCMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0B9C1C6D494F0001EA75 /* GREYHCMatcher.m */; };
+		5941A85E1D82A81A0018AA2A /* GREYNot.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0B9F1C6D494F0001EA75 /* GREYNot.m */; };
+		5941A85F1D82A81A0018AA2A /* GREYStringDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0BA11C6D494F0001EA75 /* GREYStringDescription.m */; };
+		5941A8601D82A81A0018AA2A /* GREYAllOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001881C5B46C200B2DB0A /* GREYAllOf.m */; };
+		5941A8611D82A81A0018AA2A /* GREYAnyOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10018A1C5B46C200B2DB0A /* GREYAnyOf.m */; };
+		5941A8621D82A81A0018AA2A /* GREYBaseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10018C1C5B46C200B2DB0A /* GREYBaseMatcher.m */; };
+		5941A8631D82A81A0018AA2A /* GREYElementMatcherBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10018E1C5B46C200B2DB0A /* GREYElementMatcherBlock.m */; };
+		5941A8641D82A81A0018AA2A /* GREYLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001901C5B46C200B2DB0A /* GREYLayoutConstraint.m */; };
+		5941A8651D82A81A0018AA2A /* GREYMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001921C5B46C200B2DB0A /* GREYMatchers.m */; };
+		5941A8661D82A81A0018AA2A /* GREYDataEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001951C5B46C200B2DB0A /* GREYDataEnumerator.m */; };
+		5941A8671D82A81A0018AA2A /* GREYElementProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001971C5B46C200B2DB0A /* GREYElementProvider.m */; };
+		5941A8681D82A81A0018AA2A /* GREYUIWindowProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10019A1C5B46C200B2DB0A /* GREYUIWindowProvider.m */; };
+		5941A8691D82A81A0018AA2A /* GREYRunLoopSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = FD720C0F1CFF7E93007A0942 /* GREYRunLoopSpinner.m */; };
+		5941A86A1D82A81A0018AA2A /* GREYAppStateTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10019D1C5B46C200B2DB0A /* GREYAppStateTracker.m */; };
+		5941A86B1D82A81A0018AA2A /* GREYCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A11C5B46C200B2DB0A /* GREYCondition.m */; };
+		5941A86C1D82A81A0018AA2A /* GREYDispatchQueueIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A31C5B46C200B2DB0A /* GREYDispatchQueueIdlingResource.m */; };
+		5941A86D1D82A81A0018AA2A /* GREYDispatchQueueTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 611BF1661D4CD292001D9E46 /* GREYDispatchQueueTracker.m */; };
+		5941A86E1D82A81A0018AA2A /* GREYManagedObjectContextIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 611BF16A1D4CD705001D9E46 /* GREYManagedObjectContextIdlingResource.m */; };
+		5941A86F1D82A81A0018AA2A /* GREYNSTimerIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A51C5B46C200B2DB0A /* GREYNSTimerIdlingResource.m */; };
+		5941A8701D82A81A0018AA2A /* GREYOperationQueueIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A71C5B46C200B2DB0A /* GREYOperationQueueIdlingResource.m */; };
+		5941A8711D82A81A0018AA2A /* GREYSyncAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A91C5B46C200B2DB0A /* GREYSyncAPI.m */; };
+		5941A8721D82A81A0018AA2A /* GREYTimedIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001AB1C5B46C200B2DB0A /* GREYTimedIdlingResource.m */; };
+		5941A8731D82A81A0018AA2A /* GREYUIThreadExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001AD1C5B46C200B2DB0A /* GREYUIThreadExecutor.m */; };
+		5941A8741D82A81A0018AA2A /* GREYUIWebViewIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001AF1C5B46C200B2DB0A /* GREYUIWebViewIdlingResource.m */; };
 		597E02CA1D55AC040052A8D1 /* GREYPathGestureUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001081C5B46C100B2DB0A /* GREYPathGestureUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		597E02CB1D55AC180052A8D1 /* GREYScrollAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10010C1C5B46C100B2DB0A /* GREYScrollAction.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		597E02CC1D55AC240052A8D1 /* GREYTapAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001181C5B46C100B2DB0A /* GREYTapAction.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -58,147 +144,164 @@
 		597E030B1D55B9F60052A8D1 /* GREYPickerAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10010A1C5B46C100B2DB0A /* GREYPickerAction.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		597E030E1D55BC930052A8D1 /* GREYScrollToContentEdgeAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001101C5B46C100B2DB0A /* GREYScrollToContentEdgeAction.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		597E030F1D55BC930052A8D1 /* GREYSlideAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001141C5B46C100B2DB0A /* GREYSlideAction.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		59A89D6D1D82AA8500CB60FA /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1000E91C5B466F00B2DB0A /* EarlGrey.framework */; };
+		59A89D6E1D82BC8B00CB60FA /* GREYBaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0B971C6D49400001EA75 /* GREYBaseAction.m */; };
+		59A89D6F1D82BC8B00CB60FA /* GREYActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001031C5B46C100B2DB0A /* GREYActionBlock.m */; };
+		59A89D701D82BC8B00CB60FA /* GREYActions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001051C5B46C100B2DB0A /* GREYActions.m */; };
+		59A89D711D82BC8B00CB60FA /* GREYPinchAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E0BE1D755A0D007F9EE6 /* GREYPinchAction.m */; };
+		59A89D721D82BC8B00CB60FA /* GREYChangeStepperAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001071C5B46C100B2DB0A /* GREYChangeStepperAction.m */; };
+		59A89D731D82BC8B00CB60FA /* GREYPathGestureUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001091C5B46C100B2DB0A /* GREYPathGestureUtils.m */; };
+		59A89D741D82BC8B00CB60FA /* GREYPickerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10010B1C5B46C100B2DB0A /* GREYPickerAction.m */; };
+		59A89D751D82BC8B00CB60FA /* GREYScrollAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10010D1C5B46C100B2DB0A /* GREYScrollAction.m */; };
+		59A89D761D82BC8B00CB60FA /* GREYScrollActionError.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10010F1C5B46C100B2DB0A /* GREYScrollActionError.m */; };
+		59A89D771D82BC8B00CB60FA /* GREYScrollToContentEdgeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001111C5B46C100B2DB0A /* GREYScrollToContentEdgeAction.m */; };
+		59A89D781D82BC8B00CB60FA /* GREYSlideAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001151C5B46C100B2DB0A /* GREYSlideAction.m */; };
+		59A89D791D82BC8B00CB60FA /* GREYSwipeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001171C5B46C100B2DB0A /* GREYSwipeAction.m */; };
+		59A89D7A1D82BC8B00CB60FA /* GREYTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001191C5B46C100B2DB0A /* GREYTapAction.m */; };
+		59A89D7B1D82BC8B00CB60FA /* GREYTapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10011B1C5B46C100B2DB0A /* GREYTapper.m */; };
+		59A89D7C1D82BC8B00CB60FA /* __NSCFLocalDataTask_GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10011E1C5B46C100B2DB0A /* __NSCFLocalDataTask_GREYAdditions.m */; };
+		59A89D7D1D82BC8B00CB60FA /* _UIModalItemsPresentingViewController_GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001221C5B46C100B2DB0A /* _UIModalItemsPresentingViewController_GREYAdditions.m */; };
+		59A89D7E1D82BC8B00CB60FA /* CAAnimation+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001241C5B46C100B2DB0A /* CAAnimation+GREYAdditions.m */; };
+		59A89D7F1D82BC8B00CB60FA /* CALayer+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001261C5B46C100B2DB0A /* CALayer+GREYAdditions.m */; };
+		59A89D801D82BC8B00CB60FA /* CGGeometry+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001281C5B46C100B2DB0A /* CGGeometry+GREYAdditions.m */; };
+		59A89D811D82BC8B00CB60FA /* NSError+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10012A1C5B46C100B2DB0A /* NSError+GREYAdditions.m */; };
+		59A89D821D82BC8B00CB60FA /* NSObject+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10012C1C5B46C100B2DB0A /* NSObject+GREYAdditions.m */; };
+		59A89D831D82BC8B00CB60FA /* NSRunLoop+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10012E1C5B46C100B2DB0A /* NSRunLoop+GREYAdditions.m */; };
+		59A89D841D82BC8B00CB60FA /* NSString+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001301C5B46C100B2DB0A /* NSString+GREYAdditions.m */; };
+		59A89D851D82BC8B00CB60FA /* NSTimer+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001321C5B46C100B2DB0A /* NSTimer+GREYAdditions.m */; };
+		59A89D861D82BC8B00CB60FA /* NSURL+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001341C5B46C100B2DB0A /* NSURL+GREYAdditions.m */; };
+		59A89D871D82BC8B00CB60FA /* NSURLConnection+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001361C5B46C100B2DB0A /* NSURLConnection+GREYAdditions.m */; };
+		59A89D881D82BC8B00CB60FA /* UIAnimation+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001381C5B46C100B2DB0A /* UIAnimation+GREYAdditions.m */; };
+		59A89D891D82BC8B00CB60FA /* UIApplication+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10013A1C5B46C100B2DB0A /* UIApplication+GREYAdditions.m */; };
+		59A89D8A1D82BC8B00CB60FA /* UIScrollView+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10013C1C5B46C100B2DB0A /* UIScrollView+GREYAdditions.m */; };
+		59A89D8B1D82BC8B00CB60FA /* UISwitch+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10013E1C5B46C100B2DB0A /* UISwitch+GREYAdditions.m */; };
+		59A89D8C1D82BC8B00CB60FA /* UITouch+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001401C5B46C100B2DB0A /* UITouch+GREYAdditions.m */; };
+		59A89D8D1D82BC8B00CB60FA /* UIView+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001421C5B46C100B2DB0A /* UIView+GREYAdditions.m */; };
+		59A89D8E1D82BC8B00CB60FA /* UIViewController+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001441C5B46C100B2DB0A /* UIViewController+GREYAdditions.m */; };
+		59A89D8F1D82BC8B00CB60FA /* UIWebView+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001461C5B46C100B2DB0A /* UIWebView+GREYAdditions.m */; };
+		59A89D901D82BC8B00CB60FA /* UIWindow+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001481C5B46C100B2DB0A /* UIWindow+GREYAdditions.m */; };
+		59A89D911D82BC8B00CB60FA /* XCTestCase+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10014A1C5B46C100B2DB0A /* XCTestCase+GREYAdditions.m */; };
+		59A89D921D82BC8B00CB60FA /* UIGestureRecognizer+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 61156A501D1B2AC1000013C7 /* UIGestureRecognizer+GREYAdditions.m */; };
+		59A89D931D82BC8B00CB60FA /* GREYWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94FDB51D0F68180021F107 /* GREYWeakObjectContainer.m */; };
+		59A89D941D82BC8B00CB60FA /* GREYAssertionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001501C5B46C200B2DB0A /* GREYAssertionBlock.m */; };
+		59A89D951D82BC8B00CB60FA /* GREYAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001531C5B46C200B2DB0A /* GREYAssertions.m */; };
+		59A89D961D82BC8B00CB60FA /* GREYTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD242E711D14B73E00046221 /* GREYTestHelper.m */; };
+		59A89D971D82BC8B00CB60FA /* GREYAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001571C5B46C200B2DB0A /* GREYAnalytics.m */; };
+		59A89D981D82BC8B00CB60FA /* GREYConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001591C5B46C200B2DB0A /* GREYConfiguration.m */; };
+		59A89D991D82BC8B00CB60FA /* GREYConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10015B1C5B46C200B2DB0A /* GREYConstants.m */; };
+		59A89D9A1D82BC8B00CB60FA /* GREYElementHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10015E1C5B46C200B2DB0A /* GREYElementHierarchy.m */; };
+		59A89D9B1D82BC8B00CB60FA /* GREYScreenshotUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001621C5B46C200B2DB0A /* GREYScreenshotUtil.m */; };
+		59A89D9C1D82BC8B00CB60FA /* GREYSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001641C5B46C200B2DB0A /* GREYSwizzler.m */; };
+		59A89D9D1D82BC8B00CB60FA /* GREYVisibilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001661C5B46C200B2DB0A /* GREYVisibilityChecker.m */; };
+		59A89D9E1D82BC8B00CB60FA /* GREYAutomationSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FC0A061CD939C30081BDAA /* GREYAutomationSetup.m */; };
+		59A89D9F1D82BC8B00CB60FA /* GREYElementFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001691C5B46C200B2DB0A /* GREYElementFinder.m */; };
+		59A89DA01D82BC8B00CB60FA /* GREYElementInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10016B1C5B46C200B2DB0A /* GREYElementInteraction.m */; };
+		59A89DA11D82BC8B00CB60FA /* GREYKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10016F1C5B46C200B2DB0A /* GREYKeyboard.m */; };
+		59A89DA21D82BC8B00CB60FA /* GREYCAAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001721C5B46C200B2DB0A /* GREYCAAnimationDelegate.m */; };
+		59A89DA31D82BC8B00CB60FA /* GREYNSURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001741C5B46C200B2DB0A /* GREYNSURLConnectionDelegate.m */; };
+		59A89DA41D82BC8B00CB60FA /* GREYSurrogateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001761C5B46C200B2DB0A /* GREYSurrogateDelegate.m */; };
+		59A89DA51D82BC8B00CB60FA /* GREYUIWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001781C5B46C200B2DB0A /* GREYUIWebViewDelegate.m */; };
+		59A89DA61D82BC8B00CB60FA /* EarlGrey.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10017A1C5B46C200B2DB0A /* EarlGrey.m */; };
+		59A89DA71D82BC8B00CB60FA /* GREYSyntheticEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10017F1C5B46C200B2DB0A /* GREYSyntheticEvents.m */; };
+		59A89DA81D82BC8B00CB60FA /* GREYTouchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E0B61D7559DA007F9EE6 /* GREYTouchInfo.m */; };
+		59A89DA91D82BC8B00CB60FA /* GREYTouchInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E0B81D7559DA007F9EE6 /* GREYTouchInjector.m */; };
+		59A89DAA1D82BC8B00CB60FA /* GREYDefaultFailureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001821C5B46C200B2DB0A /* GREYDefaultFailureHandler.m */; };
+		59A89DAB1D82BC8B00CB60FA /* GREYFrameworkException.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001851C5B46C200B2DB0A /* GREYFrameworkException.m */; };
+		59A89DAC1D82BC8B00CB60FA /* GREYHCMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0B9C1C6D494F0001EA75 /* GREYHCMatcher.m */; };
+		59A89DAD1D82BC8B00CB60FA /* GREYNot.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0B9F1C6D494F0001EA75 /* GREYNot.m */; };
+		59A89DAE1D82BC8B00CB60FA /* GREYStringDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0BA11C6D494F0001EA75 /* GREYStringDescription.m */; };
+		59A89DAF1D82BC8B00CB60FA /* GREYAllOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001881C5B46C200B2DB0A /* GREYAllOf.m */; };
+		59A89DB01D82BC8B00CB60FA /* GREYAnyOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10018A1C5B46C200B2DB0A /* GREYAnyOf.m */; };
+		59A89DB11D82BC8B00CB60FA /* GREYBaseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10018C1C5B46C200B2DB0A /* GREYBaseMatcher.m */; };
+		59A89DB21D82BC8B00CB60FA /* GREYElementMatcherBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10018E1C5B46C200B2DB0A /* GREYElementMatcherBlock.m */; };
+		59A89DB31D82BC8B00CB60FA /* GREYLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001901C5B46C200B2DB0A /* GREYLayoutConstraint.m */; };
+		59A89DB41D82BC8B00CB60FA /* GREYMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001921C5B46C200B2DB0A /* GREYMatchers.m */; };
+		59A89DB51D82BC8B00CB60FA /* GREYDataEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001951C5B46C200B2DB0A /* GREYDataEnumerator.m */; };
+		59A89DB61D82BC8B00CB60FA /* GREYElementProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001971C5B46C200B2DB0A /* GREYElementProvider.m */; };
+		59A89DB71D82BC8B00CB60FA /* GREYUIWindowProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10019A1C5B46C200B2DB0A /* GREYUIWindowProvider.m */; };
+		59A89DB81D82BC8B00CB60FA /* GREYRunLoopSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = FD720C0F1CFF7E93007A0942 /* GREYRunLoopSpinner.m */; };
+		59A89DB91D82BC8B00CB60FA /* GREYAppStateTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10019D1C5B46C200B2DB0A /* GREYAppStateTracker.m */; };
+		59A89DBA1D82BC8B00CB60FA /* GREYCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A11C5B46C200B2DB0A /* GREYCondition.m */; };
+		59A89DBB1D82BC8B00CB60FA /* GREYDispatchQueueIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A31C5B46C200B2DB0A /* GREYDispatchQueueIdlingResource.m */; };
+		59A89DBC1D82BC8B00CB60FA /* GREYDispatchQueueTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 611BF1661D4CD292001D9E46 /* GREYDispatchQueueTracker.m */; };
+		59A89DBD1D82BC8B00CB60FA /* GREYManagedObjectContextIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 611BF16A1D4CD705001D9E46 /* GREYManagedObjectContextIdlingResource.m */; };
+		59A89DBE1D82BC8B00CB60FA /* GREYNSTimerIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A51C5B46C200B2DB0A /* GREYNSTimerIdlingResource.m */; };
+		59A89DBF1D82BC8B00CB60FA /* GREYOperationQueueIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A71C5B46C200B2DB0A /* GREYOperationQueueIdlingResource.m */; };
+		59A89DC01D82BC8B00CB60FA /* GREYSyncAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A91C5B46C200B2DB0A /* GREYSyncAPI.m */; };
+		59A89DC11D82BC8B00CB60FA /* GREYTimedIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001AB1C5B46C200B2DB0A /* GREYTimedIdlingResource.m */; };
+		59A89DC21D82BC8B00CB60FA /* GREYUIThreadExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001AD1C5B46C200B2DB0A /* GREYUIThreadExecutor.m */; };
+		59A89DC31D82BC8B00CB60FA /* GREYUIWebViewIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001AF1C5B46C200B2DB0A /* GREYUIWebViewIdlingResource.m */; };
+		59A89DC71D82BF2000CB60FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A89DC61D82BF2000CB60FA /* XCTest.framework */; };
+		59A89DC81D82BF3D00CB60FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A89DC61D82BF2000CB60FA /* XCTest.framework */; };
+		59A89DD31D85398A00CB60FA /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = FD61605D1BF2C80D00722593 /* fishhook.c */; };
+		59A89DD41D85398A00CB60FA /* fishhook.h in Sources */ = {isa = PBXBuildFile; fileRef = FD61605E1BF2C80D00722593 /* fishhook.h */; };
 		59A993281C99453200914F9A /* EarlGrey.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001791C5B46C200B2DB0A /* EarlGrey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61156A521D1B2AC1000013C7 /* UIGestureRecognizer+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 61156A501D1B2AC1000013C7 /* UIGestureRecognizer+GREYAdditions.m */; };
-		611BF1681D4CD292001D9E46 /* GREYDispatchQueueTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 611BF1661D4CD292001D9E46 /* GREYDispatchQueueTracker.m */; };
 		611BF16B1D4CD705001D9E46 /* GREYManagedObjectContextIdlingResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 611BF1691D4CD705001D9E46 /* GREYManagedObjectContextIdlingResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		611BF16C1D4CD705001D9E46 /* GREYManagedObjectContextIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 611BF16A1D4CD705001D9E46 /* GREYManagedObjectContextIdlingResource.m */; };
 		61CBDE801D4CD85200206BF7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CBDE7F1D4CD85200206BF7 /* CoreData.framework */; };
 		61E4E0B91D7559DA007F9EE6 /* GREYTouchInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E4E0B51D7559DA007F9EE6 /* GREYTouchInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		61E4E0BA1D7559DA007F9EE6 /* GREYTouchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E0B61D7559DA007F9EE6 /* GREYTouchInfo.m */; };
 		61E4E0BB1D7559DA007F9EE6 /* GREYTouchInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E4E0B71D7559DA007F9EE6 /* GREYTouchInjector.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		61E4E0BC1D7559DA007F9EE6 /* GREYTouchInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E0B81D7559DA007F9EE6 /* GREYTouchInjector.m */; };
 		61E4E0BF1D755A0D007F9EE6 /* GREYPinchAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E4E0BD1D755A0D007F9EE6 /* GREYPinchAction.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		61E4E0C01D755A0D007F9EE6 /* GREYPinchAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E0BE1D755A0D007F9EE6 /* GREYPinchAction.m */; };
-		61FC0A081CD939C30081BDAA /* GREYAutomationSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FC0A061CD939C30081BDAA /* GREYAutomationSetup.m */; };
 		FD1001B01C5B46C200B2DB0A /* GREYAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001011C5B46C100B2DB0A /* GREYAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD1001B11C5B46C200B2DB0A /* GREYActionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001021C5B46C100B2DB0A /* GREYActionBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1001B21C5B46C200B2DB0A /* GREYActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001031C5B46C100B2DB0A /* GREYActionBlock.m */; };
 		FD1001B31C5B46C200B2DB0A /* GREYActions.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001041C5B46C100B2DB0A /* GREYActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1001B41C5B46C200B2DB0A /* GREYActions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001051C5B46C100B2DB0A /* GREYActions.m */; };
-		FD1001B61C5B46C200B2DB0A /* GREYChangeStepperAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001071C5B46C100B2DB0A /* GREYChangeStepperAction.m */; };
-		FD1001B81C5B46C200B2DB0A /* GREYPathGestureUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001091C5B46C100B2DB0A /* GREYPathGestureUtils.m */; };
-		FD1001BA1C5B46C200B2DB0A /* GREYPickerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10010B1C5B46C100B2DB0A /* GREYPickerAction.m */; };
-		FD1001BC1C5B46C200B2DB0A /* GREYScrollAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10010D1C5B46C100B2DB0A /* GREYScrollAction.m */; };
 		FD1001BD1C5B46C200B2DB0A /* GREYScrollActionError.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10010E1C5B46C100B2DB0A /* GREYScrollActionError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1001BE1C5B46C200B2DB0A /* GREYScrollActionError.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10010F1C5B46C100B2DB0A /* GREYScrollActionError.m */; };
-		FD1001C01C5B46C200B2DB0A /* GREYScrollToContentEdgeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001111C5B46C100B2DB0A /* GREYScrollToContentEdgeAction.m */; };
-		FD1001C41C5B46C200B2DB0A /* GREYSlideAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001151C5B46C100B2DB0A /* GREYSlideAction.m */; };
-		FD1001C61C5B46C200B2DB0A /* GREYSwipeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001171C5B46C100B2DB0A /* GREYSwipeAction.m */; };
-		FD1001C81C5B46C200B2DB0A /* GREYTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001191C5B46C100B2DB0A /* GREYTapAction.m */; };
-		FD1001CA1C5B46C200B2DB0A /* GREYTapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10011B1C5B46C100B2DB0A /* GREYTapper.m */; };
-		FD1001CC1C5B46C200B2DB0A /* __NSCFLocalDataTask_GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10011E1C5B46C100B2DB0A /* __NSCFLocalDataTask_GREYAdditions.m */; };
-		FD1001D01C5B46C200B2DB0A /* _UIModalItemsPresentingViewController_GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001221C5B46C100B2DB0A /* _UIModalItemsPresentingViewController_GREYAdditions.m */; };
-		FD1001D21C5B46C200B2DB0A /* CAAnimation+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001241C5B46C100B2DB0A /* CAAnimation+GREYAdditions.m */; };
-		FD1001D41C5B46C200B2DB0A /* CALayer+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001261C5B46C100B2DB0A /* CALayer+GREYAdditions.m */; };
-		FD1001D61C5B46C200B2DB0A /* CGGeometry+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001281C5B46C100B2DB0A /* CGGeometry+GREYAdditions.m */; };
-		FD1001D81C5B46C200B2DB0A /* NSError+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10012A1C5B46C100B2DB0A /* NSError+GREYAdditions.m */; };
-		FD1001DA1C5B46C200B2DB0A /* NSObject+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10012C1C5B46C100B2DB0A /* NSObject+GREYAdditions.m */; };
-		FD1001DC1C5B46C200B2DB0A /* NSRunLoop+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10012E1C5B46C100B2DB0A /* NSRunLoop+GREYAdditions.m */; };
-		FD1001DE1C5B46C200B2DB0A /* NSString+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001301C5B46C100B2DB0A /* NSString+GREYAdditions.m */; };
-		FD1001E01C5B46C200B2DB0A /* NSTimer+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001321C5B46C100B2DB0A /* NSTimer+GREYAdditions.m */; };
-		FD1001E21C5B46C200B2DB0A /* NSURL+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001341C5B46C100B2DB0A /* NSURL+GREYAdditions.m */; };
-		FD1001E41C5B46C200B2DB0A /* NSURLConnection+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001361C5B46C100B2DB0A /* NSURLConnection+GREYAdditions.m */; };
-		FD1001E61C5B46C200B2DB0A /* UIAnimation+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001381C5B46C100B2DB0A /* UIAnimation+GREYAdditions.m */; };
-		FD1001E81C5B46C200B2DB0A /* UIApplication+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10013A1C5B46C100B2DB0A /* UIApplication+GREYAdditions.m */; };
-		FD1001EA1C5B46C200B2DB0A /* UIScrollView+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10013C1C5B46C100B2DB0A /* UIScrollView+GREYAdditions.m */; };
-		FD1001EC1C5B46C200B2DB0A /* UISwitch+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10013E1C5B46C100B2DB0A /* UISwitch+GREYAdditions.m */; };
-		FD1001EE1C5B46C200B2DB0A /* UITouch+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001401C5B46C100B2DB0A /* UITouch+GREYAdditions.m */; };
-		FD1001F01C5B46C200B2DB0A /* UIView+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001421C5B46C100B2DB0A /* UIView+GREYAdditions.m */; };
-		FD1001F21C5B46C200B2DB0A /* UIViewController+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001441C5B46C100B2DB0A /* UIViewController+GREYAdditions.m */; };
-		FD1001F41C5B46C200B2DB0A /* UIWebView+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001461C5B46C100B2DB0A /* UIWebView+GREYAdditions.m */; };
-		FD1001F61C5B46C200B2DB0A /* UIWindow+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001481C5B46C100B2DB0A /* UIWindow+GREYAdditions.m */; };
-		FD1001F81C5B46C200B2DB0A /* XCTestCase+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10014A1C5B46C100B2DB0A /* XCTestCase+GREYAdditions.m */; };
 		FD1001F91C5B46C200B2DB0A /* GREYIdlingResource.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10014C1C5B46C200B2DB0A /* GREYIdlingResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD1001FA1C5B46C200B2DB0A /* GREYAssertion.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10014E1C5B46C200B2DB0A /* GREYAssertion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD1001FB1C5B46C200B2DB0A /* GREYAssertionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10014F1C5B46C200B2DB0A /* GREYAssertionBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1001FC1C5B46C200B2DB0A /* GREYAssertionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001501C5B46C200B2DB0A /* GREYAssertionBlock.m */; };
 		FD1001FD1C5B46C200B2DB0A /* GREYAssertionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001511C5B46C200B2DB0A /* GREYAssertionDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD1001FE1C5B46C200B2DB0A /* GREYAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001521C5B46C200B2DB0A /* GREYAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1001FF1C5B46C200B2DB0A /* GREYAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001531C5B46C200B2DB0A /* GREYAssertions.m */; };
-		FD1002021C5B46C200B2DB0A /* GREYAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001571C5B46C200B2DB0A /* GREYAnalytics.m */; };
 		FD1002031C5B46C200B2DB0A /* GREYConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001581C5B46C200B2DB0A /* GREYConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002041C5B46C200B2DB0A /* GREYConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001591C5B46C200B2DB0A /* GREYConfiguration.m */; };
 		FD1002051C5B46C200B2DB0A /* GREYConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10015A1C5B46C200B2DB0A /* GREYConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002061C5B46C200B2DB0A /* GREYConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10015B1C5B46C200B2DB0A /* GREYConstants.m */; };
 		FD1002071C5B46C200B2DB0A /* GREYDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10015C1C5B46C200B2DB0A /* GREYDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD1002081C5B46C200B2DB0A /* GREYElementHierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10015D1C5B46C200B2DB0A /* GREYElementHierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002091C5B46C200B2DB0A /* GREYElementHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10015E1C5B46C200B2DB0A /* GREYElementHierarchy.m */; };
 		FD10020C1C5B46C200B2DB0A /* GREYScreenshotUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001611C5B46C200B2DB0A /* GREYScreenshotUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD10020D1C5B46C200B2DB0A /* GREYScreenshotUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001621C5B46C200B2DB0A /* GREYScreenshotUtil.m */; };
-		FD10020F1C5B46C200B2DB0A /* GREYSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001641C5B46C200B2DB0A /* GREYSwizzler.m */; };
-		FD1002111C5B46C200B2DB0A /* GREYVisibilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001661C5B46C200B2DB0A /* GREYVisibilityChecker.m */; };
 		FD1002121C5B46C200B2DB0A /* GREYElementFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001681C5B46C200B2DB0A /* GREYElementFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002131C5B46C200B2DB0A /* GREYElementFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001691C5B46C200B2DB0A /* GREYElementFinder.m */; };
 		FD1002141C5B46C200B2DB0A /* GREYElementInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10016A1C5B46C200B2DB0A /* GREYElementInteraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002151C5B46C200B2DB0A /* GREYElementInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10016B1C5B46C200B2DB0A /* GREYElementInteraction.m */; };
 		FD1002161C5B46C200B2DB0A /* GREYInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10016C1C5B46C200B2DB0A /* GREYInteraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002191C5B46C200B2DB0A /* GREYKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10016F1C5B46C200B2DB0A /* GREYKeyboard.m */; };
-		FD10021B1C5B46C200B2DB0A /* GREYCAAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001721C5B46C200B2DB0A /* GREYCAAnimationDelegate.m */; };
-		FD10021D1C5B46C200B2DB0A /* GREYNSURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001741C5B46C200B2DB0A /* GREYNSURLConnectionDelegate.m */; };
-		FD10021F1C5B46C200B2DB0A /* GREYSurrogateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001761C5B46C200B2DB0A /* GREYSurrogateDelegate.m */; };
-		FD1002211C5B46C200B2DB0A /* GREYUIWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001781C5B46C200B2DB0A /* GREYUIWebViewDelegate.m */; };
-		FD1002231C5B46C200B2DB0A /* EarlGrey.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10017A1C5B46C200B2DB0A /* EarlGrey.m */; };
-		FD1002271C5B46C200B2DB0A /* GREYSyntheticEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10017F1C5B46C200B2DB0A /* GREYSyntheticEvents.m */; };
-		FD1002291C5B46C200B2DB0A /* GREYDefaultFailureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001821C5B46C200B2DB0A /* GREYDefaultFailureHandler.m */; };
 		FD10022A1C5B46C200B2DB0A /* GREYFailureHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001831C5B46C200B2DB0A /* GREYFailureHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD10022B1C5B46C200B2DB0A /* GREYFrameworkException.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001841C5B46C200B2DB0A /* GREYFrameworkException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD10022C1C5B46C200B2DB0A /* GREYFrameworkException.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001851C5B46C200B2DB0A /* GREYFrameworkException.m */; };
 		FD10022D1C5B46C200B2DB0A /* GREYAllOf.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001871C5B46C200B2DB0A /* GREYAllOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD10022E1C5B46C200B2DB0A /* GREYAllOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001881C5B46C200B2DB0A /* GREYAllOf.m */; };
 		FD10022F1C5B46C200B2DB0A /* GREYAnyOf.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001891C5B46C200B2DB0A /* GREYAnyOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002301C5B46C200B2DB0A /* GREYAnyOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10018A1C5B46C200B2DB0A /* GREYAnyOf.m */; };
 		FD1002311C5B46C200B2DB0A /* GREYBaseMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10018B1C5B46C200B2DB0A /* GREYBaseMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002321C5B46C200B2DB0A /* GREYBaseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10018C1C5B46C200B2DB0A /* GREYBaseMatcher.m */; };
 		FD1002331C5B46C200B2DB0A /* GREYElementMatcherBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10018D1C5B46C200B2DB0A /* GREYElementMatcherBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002341C5B46C200B2DB0A /* GREYElementMatcherBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10018E1C5B46C200B2DB0A /* GREYElementMatcherBlock.m */; };
 		FD1002351C5B46C200B2DB0A /* GREYLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10018F1C5B46C200B2DB0A /* GREYLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002361C5B46C200B2DB0A /* GREYLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001901C5B46C200B2DB0A /* GREYLayoutConstraint.m */; };
 		FD1002371C5B46C200B2DB0A /* GREYMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001911C5B46C200B2DB0A /* GREYMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002381C5B46C200B2DB0A /* GREYMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001921C5B46C200B2DB0A /* GREYMatchers.m */; };
 		FD1002391C5B46C200B2DB0A /* GREYDataEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001941C5B46C200B2DB0A /* GREYDataEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD10023A1C5B46C200B2DB0A /* GREYDataEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001951C5B46C200B2DB0A /* GREYDataEnumerator.m */; };
-		FD10023C1C5B46C200B2DB0A /* GREYElementProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001971C5B46C200B2DB0A /* GREYElementProvider.m */; };
 		FD10023D1C5B46C200B2DB0A /* GREYProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001981C5B46C200B2DB0A /* GREYProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD10023F1C5B46C200B2DB0A /* GREYUIWindowProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10019A1C5B46C200B2DB0A /* GREYUIWindowProvider.m */; };
-		FD1002411C5B46C200B2DB0A /* GREYAppStateTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10019D1C5B46C200B2DB0A /* GREYAppStateTracker.m */; };
 		FD1002441C5B46C200B2DB0A /* GREYCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001A01C5B46C200B2DB0A /* GREYCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002451C5B46C200B2DB0A /* GREYCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A11C5B46C200B2DB0A /* GREYCondition.m */; };
 		FD1002461C5B46C200B2DB0A /* GREYDispatchQueueIdlingResource.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001A21C5B46C200B2DB0A /* GREYDispatchQueueIdlingResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002471C5B46C200B2DB0A /* GREYDispatchQueueIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A31C5B46C200B2DB0A /* GREYDispatchQueueIdlingResource.m */; };
 		FD1002481C5B46C200B2DB0A /* GREYNSTimerIdlingResource.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001A41C5B46C200B2DB0A /* GREYNSTimerIdlingResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002491C5B46C200B2DB0A /* GREYNSTimerIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A51C5B46C200B2DB0A /* GREYNSTimerIdlingResource.m */; };
 		FD10024A1C5B46C200B2DB0A /* GREYOperationQueueIdlingResource.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001A61C5B46C200B2DB0A /* GREYOperationQueueIdlingResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD10024B1C5B46C200B2DB0A /* GREYOperationQueueIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A71C5B46C200B2DB0A /* GREYOperationQueueIdlingResource.m */; };
 		FD10024C1C5B46C200B2DB0A /* GREYSyncAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001A81C5B46C200B2DB0A /* GREYSyncAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD10024D1C5B46C200B2DB0A /* GREYSyncAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001A91C5B46C200B2DB0A /* GREYSyncAPI.m */; };
-		FD10024F1C5B46C200B2DB0A /* GREYTimedIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001AB1C5B46C200B2DB0A /* GREYTimedIdlingResource.m */; };
 		FD1002501C5B46C200B2DB0A /* GREYUIThreadExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001AC1C5B46C200B2DB0A /* GREYUIThreadExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD1002511C5B46C200B2DB0A /* GREYUIThreadExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001AD1C5B46C200B2DB0A /* GREYUIThreadExecutor.m */; };
-		FD1002531C5B46C200B2DB0A /* GREYUIWebViewIdlingResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1001AF1C5B46C200B2DB0A /* GREYUIWebViewIdlingResource.m */; };
 		FD1002541C5B46F600B2DB0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD06C6731BECADAD009032A5 /* UIKit.framework */; };
 		FD1002551C5B46FB00B2DB0A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD06C6711BECADA1009032A5 /* QuartzCore.framework */; };
 		FD1002561C5B470000B2DB0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD06C66F1BECAD9B009032A5 /* Foundation.framework */; };
 		FD1002571C5B470A00B2DB0A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD06C66B1BECAD8B009032A5 /* CoreFoundation.framework */; };
 		FD1002581C5B471200B2DB0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD06C66C1BECAD8B009032A5 /* CoreGraphics.framework */; };
-		FD10025A1C5B472C00B2DB0A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1002591C5B472C00B2DB0A /* IOKit.framework */; };
 		FD10025B1C5B473400B2DB0A /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6160601BF2C97800722593 /* OCHamcrest.framework */; };
-		FD10025C1C5B489A00B2DB0A /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = FD61605D1BF2C80D00722593 /* fishhook.c */; };
-		FD242E731D14B73E00046221 /* GREYTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD242E711D14B73E00046221 /* GREYTestHelper.m */; };
 		FD242E811D14C24C00046221 /* GREYTestHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FD242E701D14B73E00046221 /* GREYTestHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD6D0B981C6D49400001EA75 /* GREYBaseAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6D0B961C6D49400001EA75 /* GREYBaseAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD6D0B991C6D49400001EA75 /* GREYBaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0B971C6D49400001EA75 /* GREYBaseAction.m */; };
 		FD6D0BA21C6D494F0001EA75 /* GREYDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6D0B9A1C6D494F0001EA75 /* GREYDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD6D0BA41C6D494F0001EA75 /* GREYHCMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0B9C1C6D494F0001EA75 /* GREYHCMatcher.m */; };
 		FD6D0BA51C6D494F0001EA75 /* GREYMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6D0B9D1C6D494F0001EA75 /* GREYMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD6D0BA61C6D494F0001EA75 /* GREYNot.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6D0B9E1C6D494F0001EA75 /* GREYNot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD6D0BA71C6D494F0001EA75 /* GREYNot.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0B9F1C6D494F0001EA75 /* GREYNot.m */; };
-		FD6D0BA91C6D494F0001EA75 /* GREYStringDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D0BA11C6D494F0001EA75 /* GREYStringDescription.m */; };
-		FD720C111CFF7E93007A0942 /* GREYRunLoopSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = FD720C0F1CFF7E93007A0942 /* GREYRunLoopSpinner.m */; };
-		FD94FDB81D0F68180021F107 /* GREYWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94FDB51D0F68180021F107 /* GREYWeakObjectContainer.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		59A89D621D82AA6700CB60FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		59A89D641D82AA6700CB60FA /* libEarlGrey_lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEarlGrey_lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A89DC61D82BF2000CB60FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		61156A4F1D1B2AC1000013C7 /* UIGestureRecognizer+GREYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+GREYAdditions.h"; sourceTree = "<group>"; };
 		61156A501D1B2AC1000013C7 /* UIGestureRecognizer+GREYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+GREYAdditions.m"; sourceTree = "<group>"; };
 		611BF1651D4CD292001D9E46 /* GREYDispatchQueueTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREYDispatchQueueTracker.h; sourceTree = "<group>"; };
@@ -375,7 +478,6 @@
 		FD1001AD1C5B46C200B2DB0A /* GREYUIThreadExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GREYUIThreadExecutor.m; sourceTree = "<group>"; };
 		FD1001AE1C5B46C200B2DB0A /* GREYUIWebViewIdlingResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREYUIWebViewIdlingResource.h; sourceTree = "<group>"; };
 		FD1001AF1C5B46C200B2DB0A /* GREYUIWebViewIdlingResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GREYUIWebViewIdlingResource.m; sourceTree = "<group>"; };
-		FD1002591C5B472C00B2DB0A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../../../../../../../System/Library/Frameworks/IOKit.framework; sourceTree = "<group>"; };
 		FD242E701D14B73E00046221 /* GREYTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREYTestHelper.h; sourceTree = "<group>"; };
 		FD242E711D14B73E00046221 /* GREYTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GREYTestHelper.m; sourceTree = "<group>"; };
 		FD61605B1BF2C7D100722593 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -400,13 +502,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		59A89D611D82AA6700CB60FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A89DC71D82BF2000CB60FA /* XCTest.framework in Frameworks */,
+				59A89D6D1D82AA8500CB60FA /* EarlGrey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD1000E51C5B466F00B2DB0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A89DC81D82BF3D00CB60FA /* XCTest.framework in Frameworks */,
 				61CBDE801D4CD85200206BF7 /* CoreData.framework in Frameworks */,
 				FD10025B1C5B473400B2DB0A /* OCHamcrest.framework in Frameworks */,
-				FD10025A1C5B472C00B2DB0A /* IOKit.framework in Frameworks */,
 				FD1002581C5B471200B2DB0A /* CoreGraphics.framework in Frameworks */,
 				FD1002571C5B470A00B2DB0A /* CoreFoundation.framework in Frameworks */,
 				FD1002561C5B470000B2DB0A /* Foundation.framework in Frameworks */,
@@ -421,8 +532,8 @@
 		FD06C6751BECAE6A009032A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				59A89DC61D82BF2000CB60FA /* XCTest.framework */,
 				61CBDE7F1D4CD85200206BF7 /* CoreData.framework */,
-				FD1002591C5B472C00B2DB0A /* IOKit.framework */,
 				FD6160601BF2C97800722593 /* OCHamcrest.framework */,
 				FD61605B1BF2C7D100722593 /* IOKit.framework */,
 				FD06C6731BECADAD009032A5 /* UIKit.framework */,
@@ -767,6 +878,7 @@
 			isa = PBXGroup;
 			children = (
 				FD1000E91C5B466F00B2DB0A /* EarlGrey.framework */,
+				59A89D641D82AA6700CB60FA /* libEarlGrey_lib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -878,6 +990,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		59A89D631D82AA6700CB60FA /* EarlGrey_lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A89D6A1D82AA6700CB60FA /* Build configuration list for PBXNativeTarget "EarlGrey_lib" */;
+			buildPhases = (
+				59A89D601D82AA6700CB60FA /* Sources */,
+				59A89D611D82AA6700CB60FA /* Frameworks */,
+				59A89D621D82AA6700CB60FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarlGrey_lib;
+			productName = EarlGrey_lib;
+			productReference = 59A89D641D82AA6700CB60FA /* libEarlGrey_lib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		FD1000E81C5B466F00B2DB0A /* EarlGrey */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD1000FA1C5B466F00B2DB0A /* Build configuration list for PBXNativeTarget "EarlGrey" */;
@@ -905,6 +1034,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Google Inc.";
 				TargetAttributes = {
+					59A89D631D82AA6700CB60FA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					FD1000E81C5B466F00B2DB0A = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -923,6 +1056,7 @@
 			projectRoot = "";
 			targets = (
 				FD1000E81C5B466F00B2DB0A /* EarlGrey */,
+				59A89D631D82AA6700CB60FA /* EarlGrey_lib */,
 			);
 		};
 /* End PBXProject section */
@@ -945,108 +1079,297 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		59A89D601D82AA6700CB60FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A89DD31D85398A00CB60FA /* fishhook.c in Sources */,
+				59A89DD41D85398A00CB60FA /* fishhook.h in Sources */,
+				59A89D6E1D82BC8B00CB60FA /* GREYBaseAction.m in Sources */,
+				59A89D6F1D82BC8B00CB60FA /* GREYActionBlock.m in Sources */,
+				59A89D701D82BC8B00CB60FA /* GREYActions.m in Sources */,
+				59A89D711D82BC8B00CB60FA /* GREYPinchAction.m in Sources */,
+				59A89D721D82BC8B00CB60FA /* GREYChangeStepperAction.m in Sources */,
+				59A89D731D82BC8B00CB60FA /* GREYPathGestureUtils.m in Sources */,
+				59A89D741D82BC8B00CB60FA /* GREYPickerAction.m in Sources */,
+				59A89D751D82BC8B00CB60FA /* GREYScrollAction.m in Sources */,
+				59A89D761D82BC8B00CB60FA /* GREYScrollActionError.m in Sources */,
+				59A89D771D82BC8B00CB60FA /* GREYScrollToContentEdgeAction.m in Sources */,
+				59A89D781D82BC8B00CB60FA /* GREYSlideAction.m in Sources */,
+				59A89D791D82BC8B00CB60FA /* GREYSwipeAction.m in Sources */,
+				59A89D7A1D82BC8B00CB60FA /* GREYTapAction.m in Sources */,
+				59A89D7B1D82BC8B00CB60FA /* GREYTapper.m in Sources */,
+				59A89D7C1D82BC8B00CB60FA /* __NSCFLocalDataTask_GREYAdditions.m in Sources */,
+				59A89D7D1D82BC8B00CB60FA /* _UIModalItemsPresentingViewController_GREYAdditions.m in Sources */,
+				59A89D7E1D82BC8B00CB60FA /* CAAnimation+GREYAdditions.m in Sources */,
+				59A89D7F1D82BC8B00CB60FA /* CALayer+GREYAdditions.m in Sources */,
+				59A89D801D82BC8B00CB60FA /* CGGeometry+GREYAdditions.m in Sources */,
+				59A89D811D82BC8B00CB60FA /* NSError+GREYAdditions.m in Sources */,
+				59A89D821D82BC8B00CB60FA /* NSObject+GREYAdditions.m in Sources */,
+				59A89D831D82BC8B00CB60FA /* NSRunLoop+GREYAdditions.m in Sources */,
+				59A89D841D82BC8B00CB60FA /* NSString+GREYAdditions.m in Sources */,
+				59A89D851D82BC8B00CB60FA /* NSTimer+GREYAdditions.m in Sources */,
+				59A89D861D82BC8B00CB60FA /* NSURL+GREYAdditions.m in Sources */,
+				59A89D871D82BC8B00CB60FA /* NSURLConnection+GREYAdditions.m in Sources */,
+				59A89D881D82BC8B00CB60FA /* UIAnimation+GREYAdditions.m in Sources */,
+				59A89D891D82BC8B00CB60FA /* UIApplication+GREYAdditions.m in Sources */,
+				59A89D8A1D82BC8B00CB60FA /* UIScrollView+GREYAdditions.m in Sources */,
+				59A89D8B1D82BC8B00CB60FA /* UISwitch+GREYAdditions.m in Sources */,
+				59A89D8C1D82BC8B00CB60FA /* UITouch+GREYAdditions.m in Sources */,
+				59A89D8D1D82BC8B00CB60FA /* UIView+GREYAdditions.m in Sources */,
+				59A89D8E1D82BC8B00CB60FA /* UIViewController+GREYAdditions.m in Sources */,
+				59A89D8F1D82BC8B00CB60FA /* UIWebView+GREYAdditions.m in Sources */,
+				59A89D901D82BC8B00CB60FA /* UIWindow+GREYAdditions.m in Sources */,
+				59A89D911D82BC8B00CB60FA /* XCTestCase+GREYAdditions.m in Sources */,
+				59A89D921D82BC8B00CB60FA /* UIGestureRecognizer+GREYAdditions.m in Sources */,
+				59A89D931D82BC8B00CB60FA /* GREYWeakObjectContainer.m in Sources */,
+				59A89D941D82BC8B00CB60FA /* GREYAssertionBlock.m in Sources */,
+				59A89D951D82BC8B00CB60FA /* GREYAssertions.m in Sources */,
+				59A89D961D82BC8B00CB60FA /* GREYTestHelper.m in Sources */,
+				59A89D971D82BC8B00CB60FA /* GREYAnalytics.m in Sources */,
+				59A89D981D82BC8B00CB60FA /* GREYConfiguration.m in Sources */,
+				59A89D991D82BC8B00CB60FA /* GREYConstants.m in Sources */,
+				59A89D9A1D82BC8B00CB60FA /* GREYElementHierarchy.m in Sources */,
+				59A89D9B1D82BC8B00CB60FA /* GREYScreenshotUtil.m in Sources */,
+				59A89D9C1D82BC8B00CB60FA /* GREYSwizzler.m in Sources */,
+				59A89D9D1D82BC8B00CB60FA /* GREYVisibilityChecker.m in Sources */,
+				59A89D9E1D82BC8B00CB60FA /* GREYAutomationSetup.m in Sources */,
+				59A89D9F1D82BC8B00CB60FA /* GREYElementFinder.m in Sources */,
+				59A89DA01D82BC8B00CB60FA /* GREYElementInteraction.m in Sources */,
+				59A89DA11D82BC8B00CB60FA /* GREYKeyboard.m in Sources */,
+				59A89DA21D82BC8B00CB60FA /* GREYCAAnimationDelegate.m in Sources */,
+				59A89DA31D82BC8B00CB60FA /* GREYNSURLConnectionDelegate.m in Sources */,
+				59A89DA41D82BC8B00CB60FA /* GREYSurrogateDelegate.m in Sources */,
+				59A89DA51D82BC8B00CB60FA /* GREYUIWebViewDelegate.m in Sources */,
+				59A89DA61D82BC8B00CB60FA /* EarlGrey.m in Sources */,
+				59A89DA71D82BC8B00CB60FA /* GREYSyntheticEvents.m in Sources */,
+				59A89DA81D82BC8B00CB60FA /* GREYTouchInfo.m in Sources */,
+				59A89DA91D82BC8B00CB60FA /* GREYTouchInjector.m in Sources */,
+				59A89DAA1D82BC8B00CB60FA /* GREYDefaultFailureHandler.m in Sources */,
+				59A89DAB1D82BC8B00CB60FA /* GREYFrameworkException.m in Sources */,
+				59A89DAC1D82BC8B00CB60FA /* GREYHCMatcher.m in Sources */,
+				59A89DAD1D82BC8B00CB60FA /* GREYNot.m in Sources */,
+				59A89DAE1D82BC8B00CB60FA /* GREYStringDescription.m in Sources */,
+				59A89DAF1D82BC8B00CB60FA /* GREYAllOf.m in Sources */,
+				59A89DB01D82BC8B00CB60FA /* GREYAnyOf.m in Sources */,
+				59A89DB11D82BC8B00CB60FA /* GREYBaseMatcher.m in Sources */,
+				59A89DB21D82BC8B00CB60FA /* GREYElementMatcherBlock.m in Sources */,
+				59A89DB31D82BC8B00CB60FA /* GREYLayoutConstraint.m in Sources */,
+				59A89DB41D82BC8B00CB60FA /* GREYMatchers.m in Sources */,
+				59A89DB51D82BC8B00CB60FA /* GREYDataEnumerator.m in Sources */,
+				59A89DB61D82BC8B00CB60FA /* GREYElementProvider.m in Sources */,
+				59A89DB71D82BC8B00CB60FA /* GREYUIWindowProvider.m in Sources */,
+				59A89DB81D82BC8B00CB60FA /* GREYRunLoopSpinner.m in Sources */,
+				59A89DB91D82BC8B00CB60FA /* GREYAppStateTracker.m in Sources */,
+				59A89DBA1D82BC8B00CB60FA /* GREYCondition.m in Sources */,
+				59A89DBB1D82BC8B00CB60FA /* GREYDispatchQueueIdlingResource.m in Sources */,
+				59A89DBC1D82BC8B00CB60FA /* GREYDispatchQueueTracker.m in Sources */,
+				59A89DBD1D82BC8B00CB60FA /* GREYManagedObjectContextIdlingResource.m in Sources */,
+				59A89DBE1D82BC8B00CB60FA /* GREYNSTimerIdlingResource.m in Sources */,
+				59A89DBF1D82BC8B00CB60FA /* GREYOperationQueueIdlingResource.m in Sources */,
+				59A89DC01D82BC8B00CB60FA /* GREYSyncAPI.m in Sources */,
+				59A89DC11D82BC8B00CB60FA /* GREYTimedIdlingResource.m in Sources */,
+				59A89DC21D82BC8B00CB60FA /* GREYUIThreadExecutor.m in Sources */,
+				59A89DC31D82BC8B00CB60FA /* GREYUIWebViewIdlingResource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD1000E41C5B466F00B2DB0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD1001C81C5B46C200B2DB0A /* GREYTapAction.m in Sources */,
-				FD1002361C5B46C200B2DB0A /* GREYLayoutConstraint.m in Sources */,
-				FD10023A1C5B46C200B2DB0A /* GREYDataEnumerator.m in Sources */,
-				FD1002191C5B46C200B2DB0A /* GREYKeyboard.m in Sources */,
-				FD1002021C5B46C200B2DB0A /* GREYAnalytics.m in Sources */,
-				FD1002411C5B46C200B2DB0A /* GREYAppStateTracker.m in Sources */,
-				FD1001F21C5B46C200B2DB0A /* UIViewController+GREYAdditions.m in Sources */,
-				FD1001E41C5B46C200B2DB0A /* NSURLConnection+GREYAdditions.m in Sources */,
-				FD10022E1C5B46C200B2DB0A /* GREYAllOf.m in Sources */,
-				FD1001E61C5B46C200B2DB0A /* UIAnimation+GREYAdditions.m in Sources */,
-				FD1002041C5B46C200B2DB0A /* GREYConfiguration.m in Sources */,
-				FD1001EE1C5B46C200B2DB0A /* UITouch+GREYAdditions.m in Sources */,
-				FD1002061C5B46C200B2DB0A /* GREYConstants.m in Sources */,
-				FD10021B1C5B46C200B2DB0A /* GREYCAAnimationDelegate.m in Sources */,
-				FD1001B41C5B46C200B2DB0A /* GREYActions.m in Sources */,
-				FD6D0B991C6D49400001EA75 /* GREYBaseAction.m in Sources */,
-				FD10025C1C5B489A00B2DB0A /* fishhook.c in Sources */,
-				FD10023C1C5B46C200B2DB0A /* GREYElementProvider.m in Sources */,
-				FD1002131C5B46C200B2DB0A /* GREYElementFinder.m in Sources */,
-				FD1002471C5B46C200B2DB0A /* GREYDispatchQueueIdlingResource.m in Sources */,
-				FD1001D81C5B46C200B2DB0A /* NSError+GREYAdditions.m in Sources */,
-				FD1002231C5B46C200B2DB0A /* EarlGrey.m in Sources */,
-				611BF16C1D4CD705001D9E46 /* GREYManagedObjectContextIdlingResource.m in Sources */,
-				FD1002271C5B46C200B2DB0A /* GREYSyntheticEvents.m in Sources */,
-				FD1002341C5B46C200B2DB0A /* GREYElementMatcherBlock.m in Sources */,
-				FD1001DC1C5B46C200B2DB0A /* NSRunLoop+GREYAdditions.m in Sources */,
-				611BF1681D4CD292001D9E46 /* GREYDispatchQueueTracker.m in Sources */,
-				61FC0A081CD939C30081BDAA /* GREYAutomationSetup.m in Sources */,
-				FD1001EA1C5B46C200B2DB0A /* UIScrollView+GREYAdditions.m in Sources */,
-				FD1002211C5B46C200B2DB0A /* GREYUIWebViewDelegate.m in Sources */,
-				FD1001FF1C5B46C200B2DB0A /* GREYAssertions.m in Sources */,
-				61E4E0C01D755A0D007F9EE6 /* GREYPinchAction.m in Sources */,
-				FD10024F1C5B46C200B2DB0A /* GREYTimedIdlingResource.m in Sources */,
-				FD1001D41C5B46C200B2DB0A /* CALayer+GREYAdditions.m in Sources */,
-				FD1001D61C5B46C200B2DB0A /* CGGeometry+GREYAdditions.m in Sources */,
-				FD10024B1C5B46C200B2DB0A /* GREYOperationQueueIdlingResource.m in Sources */,
-				FD1001DA1C5B46C200B2DB0A /* NSObject+GREYAdditions.m in Sources */,
-				FD1001F01C5B46C200B2DB0A /* UIView+GREYAdditions.m in Sources */,
-				FD10024D1C5B46C200B2DB0A /* GREYSyncAPI.m in Sources */,
-				FD1001D21C5B46C200B2DB0A /* CAAnimation+GREYAdditions.m in Sources */,
-				FD1001DE1C5B46C200B2DB0A /* NSString+GREYAdditions.m in Sources */,
-				FD1002491C5B46C200B2DB0A /* GREYNSTimerIdlingResource.m in Sources */,
-				FD6D0BA41C6D494F0001EA75 /* GREYHCMatcher.m in Sources */,
-				FD10021D1C5B46C200B2DB0A /* GREYNSURLConnectionDelegate.m in Sources */,
-				FD720C111CFF7E93007A0942 /* GREYRunLoopSpinner.m in Sources */,
-				FD1002301C5B46C200B2DB0A /* GREYAnyOf.m in Sources */,
-				FD1001EC1C5B46C200B2DB0A /* UISwitch+GREYAdditions.m in Sources */,
-				FD1002321C5B46C200B2DB0A /* GREYBaseMatcher.m in Sources */,
-				FD1001C01C5B46C200B2DB0A /* GREYScrollToContentEdgeAction.m in Sources */,
-				FD242E731D14B73E00046221 /* GREYTestHelper.m in Sources */,
-				FD1001F81C5B46C200B2DB0A /* XCTestCase+GREYAdditions.m in Sources */,
-				FD1002111C5B46C200B2DB0A /* GREYVisibilityChecker.m in Sources */,
-				FD1001B81C5B46C200B2DB0A /* GREYPathGestureUtils.m in Sources */,
-				FD1001BE1C5B46C200B2DB0A /* GREYScrollActionError.m in Sources */,
-				FD1001B61C5B46C200B2DB0A /* GREYChangeStepperAction.m in Sources */,
-				FD1001E01C5B46C200B2DB0A /* NSTimer+GREYAdditions.m in Sources */,
-				FD94FDB81D0F68180021F107 /* GREYWeakObjectContainer.m in Sources */,
-				FD1001BC1C5B46C200B2DB0A /* GREYScrollAction.m in Sources */,
-				FD1001F41C5B46C200B2DB0A /* UIWebView+GREYAdditions.m in Sources */,
-				FD1001CC1C5B46C200B2DB0A /* __NSCFLocalDataTask_GREYAdditions.m in Sources */,
-				FD1001F61C5B46C200B2DB0A /* UIWindow+GREYAdditions.m in Sources */,
-				61E4E0BA1D7559DA007F9EE6 /* GREYTouchInfo.m in Sources */,
-				FD10021F1C5B46C200B2DB0A /* GREYSurrogateDelegate.m in Sources */,
-				FD6D0BA91C6D494F0001EA75 /* GREYStringDescription.m in Sources */,
-				FD1002451C5B46C200B2DB0A /* GREYCondition.m in Sources */,
-				FD1001FC1C5B46C200B2DB0A /* GREYAssertionBlock.m in Sources */,
-				FD1002151C5B46C200B2DB0A /* GREYElementInteraction.m in Sources */,
-				FD1002381C5B46C200B2DB0A /* GREYMatchers.m in Sources */,
-				FD1001C61C5B46C200B2DB0A /* GREYSwipeAction.m in Sources */,
-				61E4E0BC1D7559DA007F9EE6 /* GREYTouchInjector.m in Sources */,
-				FD1001E21C5B46C200B2DB0A /* NSURL+GREYAdditions.m in Sources */,
-				FD10023F1C5B46C200B2DB0A /* GREYUIWindowProvider.m in Sources */,
-				FD1001C41C5B46C200B2DB0A /* GREYSlideAction.m in Sources */,
-				FD1001BA1C5B46C200B2DB0A /* GREYPickerAction.m in Sources */,
-				FD1002291C5B46C200B2DB0A /* GREYDefaultFailureHandler.m in Sources */,
-				61156A521D1B2AC1000013C7 /* UIGestureRecognizer+GREYAdditions.m in Sources */,
-				FD1001B21C5B46C200B2DB0A /* GREYActionBlock.m in Sources */,
-				FD1001CA1C5B46C200B2DB0A /* GREYTapper.m in Sources */,
-				FD1002091C5B46C200B2DB0A /* GREYElementHierarchy.m in Sources */,
-				FD1002531C5B46C200B2DB0A /* GREYUIWebViewIdlingResource.m in Sources */,
-				FD1001D01C5B46C200B2DB0A /* _UIModalItemsPresentingViewController_GREYAdditions.m in Sources */,
-				FD10022C1C5B46C200B2DB0A /* GREYFrameworkException.m in Sources */,
-				FD10020D1C5B46C200B2DB0A /* GREYScreenshotUtil.m in Sources */,
-				FD6D0BA71C6D494F0001EA75 /* GREYNot.m in Sources */,
-				FD10020F1C5B46C200B2DB0A /* GREYSwizzler.m in Sources */,
-				FD1001E81C5B46C200B2DB0A /* UIApplication+GREYAdditions.m in Sources */,
-				FD1002511C5B46C200B2DB0A /* GREYUIThreadExecutor.m in Sources */,
+				5941A81F1D82A81A0018AA2A /* GREYBaseAction.m in Sources */,
+				5941A8201D82A81A0018AA2A /* GREYActionBlock.m in Sources */,
+				5941A8211D82A81A0018AA2A /* GREYActions.m in Sources */,
+				5941A8221D82A81A0018AA2A /* GREYPinchAction.m in Sources */,
+				5941A8231D82A81A0018AA2A /* GREYChangeStepperAction.m in Sources */,
+				5941A8241D82A81A0018AA2A /* GREYPathGestureUtils.m in Sources */,
+				5941A8251D82A81A0018AA2A /* GREYPickerAction.m in Sources */,
+				5941A8261D82A81A0018AA2A /* GREYScrollAction.m in Sources */,
+				5941A8271D82A81A0018AA2A /* GREYScrollActionError.m in Sources */,
+				5941A8281D82A81A0018AA2A /* GREYScrollToContentEdgeAction.m in Sources */,
+				5941A8291D82A81A0018AA2A /* GREYSlideAction.m in Sources */,
+				5941A82A1D82A81A0018AA2A /* GREYSwipeAction.m in Sources */,
+				5941A82B1D82A81A0018AA2A /* GREYTapAction.m in Sources */,
+				5941A82C1D82A81A0018AA2A /* GREYTapper.m in Sources */,
+				5941A82D1D82A81A0018AA2A /* __NSCFLocalDataTask_GREYAdditions.m in Sources */,
+				5941A82E1D82A81A0018AA2A /* _UIModalItemsPresentingViewController_GREYAdditions.m in Sources */,
+				5941A82F1D82A81A0018AA2A /* CAAnimation+GREYAdditions.m in Sources */,
+				5941A8301D82A81A0018AA2A /* CALayer+GREYAdditions.m in Sources */,
+				5941A8311D82A81A0018AA2A /* CGGeometry+GREYAdditions.m in Sources */,
+				5941A8321D82A81A0018AA2A /* NSError+GREYAdditions.m in Sources */,
+				5941A8331D82A81A0018AA2A /* NSObject+GREYAdditions.m in Sources */,
+				5941A8341D82A81A0018AA2A /* NSRunLoop+GREYAdditions.m in Sources */,
+				5941A8351D82A81A0018AA2A /* NSString+GREYAdditions.m in Sources */,
+				5941A8361D82A81A0018AA2A /* NSTimer+GREYAdditions.m in Sources */,
+				5941A8371D82A81A0018AA2A /* NSURL+GREYAdditions.m in Sources */,
+				5941A8381D82A81A0018AA2A /* NSURLConnection+GREYAdditions.m in Sources */,
+				5941A8391D82A81A0018AA2A /* UIAnimation+GREYAdditions.m in Sources */,
+				5941A83A1D82A81A0018AA2A /* UIApplication+GREYAdditions.m in Sources */,
+				5941A83B1D82A81A0018AA2A /* UIScrollView+GREYAdditions.m in Sources */,
+				5941A83C1D82A81A0018AA2A /* UISwitch+GREYAdditions.m in Sources */,
+				5941A83D1D82A81A0018AA2A /* UITouch+GREYAdditions.m in Sources */,
+				5941A83E1D82A81A0018AA2A /* UIView+GREYAdditions.m in Sources */,
+				5941A83F1D82A81A0018AA2A /* UIViewController+GREYAdditions.m in Sources */,
+				5941A8401D82A81A0018AA2A /* UIWebView+GREYAdditions.m in Sources */,
+				5941A8411D82A81A0018AA2A /* UIWindow+GREYAdditions.m in Sources */,
+				5941A8421D82A81A0018AA2A /* XCTestCase+GREYAdditions.m in Sources */,
+				5941A8431D82A81A0018AA2A /* UIGestureRecognizer+GREYAdditions.m in Sources */,
+				5941A8441D82A81A0018AA2A /* GREYWeakObjectContainer.m in Sources */,
+				5941A8451D82A81A0018AA2A /* GREYAssertionBlock.m in Sources */,
+				5941A8461D82A81A0018AA2A /* GREYAssertions.m in Sources */,
+				5941A8471D82A81A0018AA2A /* GREYTestHelper.m in Sources */,
+				5941A8481D82A81A0018AA2A /* GREYAnalytics.m in Sources */,
+				5941A8491D82A81A0018AA2A /* GREYConfiguration.m in Sources */,
+				5941A84A1D82A81A0018AA2A /* GREYConstants.m in Sources */,
+				5941A84B1D82A81A0018AA2A /* GREYElementHierarchy.m in Sources */,
+				5941A84C1D82A81A0018AA2A /* GREYScreenshotUtil.m in Sources */,
+				5941A84D1D82A81A0018AA2A /* GREYSwizzler.m in Sources */,
+				5941A84E1D82A81A0018AA2A /* GREYVisibilityChecker.m in Sources */,
+				5941A84F1D82A81A0018AA2A /* GREYAutomationSetup.m in Sources */,
+				5941A8501D82A81A0018AA2A /* GREYElementFinder.m in Sources */,
+				5941A8511D82A81A0018AA2A /* GREYElementInteraction.m in Sources */,
+				5941A8521D82A81A0018AA2A /* GREYKeyboard.m in Sources */,
+				5941A8531D82A81A0018AA2A /* GREYCAAnimationDelegate.m in Sources */,
+				5941A8541D82A81A0018AA2A /* GREYNSURLConnectionDelegate.m in Sources */,
+				5941A8551D82A81A0018AA2A /* GREYSurrogateDelegate.m in Sources */,
+				5941A8561D82A81A0018AA2A /* GREYUIWebViewDelegate.m in Sources */,
+				5941A8571D82A81A0018AA2A /* EarlGrey.m in Sources */,
+				5941A8581D82A81A0018AA2A /* GREYSyntheticEvents.m in Sources */,
+				5941A8591D82A81A0018AA2A /* GREYTouchInfo.m in Sources */,
+				5941A85A1D82A81A0018AA2A /* GREYTouchInjector.m in Sources */,
+				5941A85B1D82A81A0018AA2A /* GREYDefaultFailureHandler.m in Sources */,
+				5941A85C1D82A81A0018AA2A /* GREYFrameworkException.m in Sources */,
+				5941A85D1D82A81A0018AA2A /* GREYHCMatcher.m in Sources */,
+				5941A85E1D82A81A0018AA2A /* GREYNot.m in Sources */,
+				5941A85F1D82A81A0018AA2A /* GREYStringDescription.m in Sources */,
+				5941A8601D82A81A0018AA2A /* GREYAllOf.m in Sources */,
+				5941A8611D82A81A0018AA2A /* GREYAnyOf.m in Sources */,
+				5941A8621D82A81A0018AA2A /* GREYBaseMatcher.m in Sources */,
+				5941A8631D82A81A0018AA2A /* GREYElementMatcherBlock.m in Sources */,
+				5941A8641D82A81A0018AA2A /* GREYLayoutConstraint.m in Sources */,
+				5941A8651D82A81A0018AA2A /* GREYMatchers.m in Sources */,
+				5941A8661D82A81A0018AA2A /* GREYDataEnumerator.m in Sources */,
+				5941A8671D82A81A0018AA2A /* GREYElementProvider.m in Sources */,
+				5941A8681D82A81A0018AA2A /* GREYUIWindowProvider.m in Sources */,
+				5941A8691D82A81A0018AA2A /* GREYRunLoopSpinner.m in Sources */,
+				5941A86A1D82A81A0018AA2A /* GREYAppStateTracker.m in Sources */,
+				5941A86B1D82A81A0018AA2A /* GREYCondition.m in Sources */,
+				5941A86C1D82A81A0018AA2A /* GREYDispatchQueueIdlingResource.m in Sources */,
+				5941A86D1D82A81A0018AA2A /* GREYDispatchQueueTracker.m in Sources */,
+				5941A86E1D82A81A0018AA2A /* GREYManagedObjectContextIdlingResource.m in Sources */,
+				5941A86F1D82A81A0018AA2A /* GREYNSTimerIdlingResource.m in Sources */,
+				5941A8701D82A81A0018AA2A /* GREYOperationQueueIdlingResource.m in Sources */,
+				5941A8711D82A81A0018AA2A /* GREYSyncAPI.m in Sources */,
+				5941A8721D82A81A0018AA2A /* GREYTimedIdlingResource.m in Sources */,
+				5941A8731D82A81A0018AA2A /* GREYUIThreadExecutor.m in Sources */,
+				5941A8741D82A81A0018AA2A /* GREYUIWebViewIdlingResource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		59A89D6B1D82AA6700CB60FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					fishhook/,
+					EarlGrey/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+				WRAPPER_EXTENSION = a;
+			};
+			name = Debug;
+		};
+		59A89D6C1D82AA6700CB60FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					fishhook/,
+					EarlGrey/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+				WRAPPER_EXTENSION = a;
+			};
+			name = Release;
+		};
 		FD1000FB1C5B466F00B2DB0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = "";
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -1057,6 +1380,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(PROJECT_DIR)",
 				);
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					EarlGrey/,
 					fishhook/,
@@ -1080,11 +1404,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.earlgrey.EarlGrey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s";
 				VERSIONING_SYSTEM = "";
 				VERSION_INFO_PREFIX = "";
 				WARNING_LDFLAGS = "$(inherited)";
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
@@ -1093,6 +1419,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = "";
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -1103,6 +1430,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(PROJECT_DIR)",
 				);
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					EarlGrey/,
 					fishhook/,
@@ -1126,11 +1454,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.earlgrey.EarlGrey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s";
 				VERSIONING_SYSTEM = "";
 				VERSION_INFO_PREFIX = "";
 				WARNING_LDFLAGS = "$(inherited)";
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -1149,6 +1479,8 @@
 				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_PREFIX = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1157,12 +1489,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				INFOPLIST_FILE = "EarlGrey-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULEMAP_FILE = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.earlgrey.EarlGrey;
-				PRODUCT_MODULE_NAME = EarlGrey;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = (
@@ -1181,6 +1514,7 @@
 					"-Wundeclared-selector",
 				);
 				WARNING_LDFLAGS = "$(inherited)";
+				WRAPPER_EXTENSION = "";
 			};
 			name = Debug;
 		};
@@ -1199,15 +1533,19 @@
 				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_PREFIX = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = NS_BLOCK_ASSERTIONS;
+				INFOPLIST_FILE = "EarlGrey-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULEMAP_FILE = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.earlgrey.EarlGrey;
-				PRODUCT_MODULE_NAME = EarlGrey;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1227,12 +1565,21 @@
 					"-Wundeclared-selector",
 				);
 				WARNING_LDFLAGS = "$(inherited)";
+				WRAPPER_EXTENSION = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		59A89D6A1D82AA6700CB60FA /* Build configuration list for PBXNativeTarget "EarlGrey_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A89D6B1D82AA6700CB60FA /* Debug */,
+				59A89D6C1D82AA6700CB60FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FD1000FA1C5B466F00B2DB0A /* Build configuration list for PBXNativeTarget "EarlGrey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

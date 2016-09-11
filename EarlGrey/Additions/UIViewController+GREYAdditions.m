@@ -132,7 +132,7 @@ static void const *const kViewControllerAppearanceKey = &kViewControllerAppearan
     // Interactive transitions can cancel and cause imbalance of will and did calls.
     id<UIViewControllerTransitionCoordinator> coordinator = [self transitionCoordinator];
     if (coordinator && [coordinator initiallyInteractive]) {
-      [coordinator notifyWhenInteractionEndsUsingBlock:
+      [coordinator notifyWhenInteractionChangesUsingBlock:
           ^(id<UIViewControllerTransitionCoordinatorContext> context) {
             if ([context isCancelled]) {
               NSString *elementID = objc_getAssociatedObject(self, kStateTrackerElementIDKey);
@@ -169,7 +169,7 @@ static void const *const kViewControllerAppearanceKey = &kViewControllerAppearan
     // Interactive transitions can cancel and cause imbalance of will and did calls.
     id<UIViewControllerTransitionCoordinator> coordinator = [self transitionCoordinator];
     if (coordinator && [coordinator initiallyInteractive]) {
-      [coordinator notifyWhenInteractionEndsUsingBlock:
+      [coordinator notifyWhenInteractionChangesUsingBlock:
           ^(id<UIViewControllerTransitionCoordinatorContext> context) {
             if ([context isCancelled]) {
               NSString *elementID = objc_getAssociatedObject(self, kStateTrackerElementIDKey);
