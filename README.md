@@ -104,3 +104,10 @@ To add unit tests for EarlGrey, use `UnitTests.xcodeproj` located at
 
 To add functional tests for EarlGrey, use the `FunctionalTests.xcodeproj` located
 at `Tests/FunctionalTests`. To run all functional tests, select the **FunctionalTests** Scheme and press Cmd+U.
+
+
+#### Generate custom framework
+
+1 . `lipo -create -output "EarlGrey" "Debug-iphonesimulator/EarlGrey.framework/EarlGrey" "Debug-iphoneos/EarlGrey.framework/EarlGrey"`
+2. `cp -R Debug-iphoneos/EarlGrey.framework ./EarlGrey.framework`
+3. `mv EarlGrey ./EarlGrey.framework/EarlGrey`

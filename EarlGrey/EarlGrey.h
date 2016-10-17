@@ -68,6 +68,9 @@
 #import <EarlGrey/GREYSyncAPI.h>
 #import <EarlGrey/GREYTestHelper.h>
 #import <EarlGrey/GREYUIThreadExecutor.h>
+
+#import <EarlGrey/GREYPrivate.h>
+
 #import <Foundation/Foundation.h>
 
 /**
